@@ -9,9 +9,24 @@ body{
 header{
     width: 100%;
     position: fixed;
+    background-color: white;
+}
+.container-full{
+    width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.container-min{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
 }
 .row{
     width: 100%;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .col-50{
@@ -21,6 +36,15 @@ header{
     width: 100%;
     padding: 20px;
 }
+.height{
+    height: 500px;
+    background-color: red;
+}
+.h{
+    height: 50px;
+    background-color: red;
+}
+
 .d-flex{
     display: flex;
 }
@@ -39,4 +63,40 @@ button{
     padding: 5px 10px;
     color: white;
 
+}
+.bg-gray{
+    background-color: #B4D0E7 ;
+    
+}
+
+.border{
+    border: 1px gray solid;
+}
+.col-100{
+    width: 100%;
+}
+.col-40{
+    width: 40%;
+}
+.col-60{
+    width: 60%;
+}
+.col-30{
+    width: 30%;
+}
+h1{
+    font-size: 100px;
+}
+img{
+    width: 100%
+}
+h2{
+    font-size: 50px;
+}
+.input{
+    width: 500px;
+    padding: 40px 0px;
+}
+input{
+    margin: 0 20px;
 }
