@@ -23,7 +23,6 @@ header{
 .container-min{
     max-width: 1000px;
     margin: 0 auto;
-    padding-top: 100px;
 }
 .row{
     width: 100%;
@@ -124,13 +123,16 @@ button{
 }
 
 h1{
-    font-size: 100px;
+    font-size: 75px;
 }
 img{
     width: 100%
 }
 h2{
     font-size: 40px;
+}
+h3{
+    font-size: 30px;
 }
 .input{
     width: 500px;
@@ -150,6 +152,9 @@ input{
 }
 .padding{
     padding: 30px 0;
+}
+.padding-top{
+    padding-top: 100px;
 }
 .square{
     border: 1px solid black;
