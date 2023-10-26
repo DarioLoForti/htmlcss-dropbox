@@ -29,19 +29,21 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.col-50{
-    width: calc(100% / 2);
-}
+
 .contain{
     width: 100%;
     padding: 20px;
 }
 .height{
-    height: 500px;
+    min-height: 900px;
     background-color: red;
 }
 .h{
     height: 50px;
+    background-color: red;
+}
+.h-200{
+    height: 200px;
     background-color: red;
 }
 
@@ -51,10 +53,15 @@ header{
 ul{
     list-style: none;
     align-items: center;
+
 }
 li{
     margin: 0 20px;
 }
+.no-margin{
+    margin: 20px 0;
+}
+
 .j-end{
     justify-content: end;
 }
@@ -75,6 +82,9 @@ button{
 .col-100{
     width: 100%;
 }
+.col-50{
+    width: calc(100% / 2);
+}
 .col-40{
     width: 40%;
 }
@@ -84,6 +94,11 @@ button{
 .col-30{
     width: 30%;
 }
+.col-33{
+    width: 33%
+
+}
+
 h1{
     font-size: 100px;
 }
@@ -91,7 +106,7 @@ img{
     width: 100%
 }
 h2{
-    font-size: 50px;
+    font-size: 40px;
 }
 .input{
     width: 500px;
@@ -99,4 +114,13 @@ h2{
 }
 input{
     margin: 0 20px;
+}
+.t-center{
+    text-align: center;
+}
+.l-height{
+    line-height: 20px;
+}
+.contain > h3, h4, p{
+    line-height: 40px;
 }
