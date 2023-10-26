@@ -9,6 +9,7 @@ body{
 header{
     width: 100%;
     position: fixed;
+    z-index: 1;
     background-color: white;
 }
 footer{
@@ -18,7 +19,6 @@ footer{
 }
 .container-full{
     width: 100%;
-    
 }
 .container{
     max-width: 1200px;
@@ -37,7 +37,7 @@ footer{
 
 .contain{
     width: 100%;
-    padding: 0px;
+    padding: 20px;
 }
 .height{
     min-height: 900px;
@@ -65,11 +65,15 @@ footer{
 ul{
     list-style: none;
     align-items: center;
-
 }
-li{
+
+.d-flex> li{
+    margin: 0px 20px;
+}
+.list-v> li{
     margin: 20px 0;
 }
+
 .no-margin{
     margin: 50px 0px;
 }
@@ -77,13 +81,16 @@ li{
     margin: 80px 0px;
 }
 .padding{
-    padding: 200px 0;
+    padding: 100px 0;
 }
 .padding-tb{
     padding: 50px 0px;
 }
 .padding-top{
     padding-top: 100px;
+}
+.bg-pink> .contain{
+    padding: 20px;
 }
 .j-end{
     justify-content: end;
@@ -131,7 +138,7 @@ button{
     width: 30%;
 }
 .col-33{
-    width: 33%
+    width: calc(100% / 3)
 }
 .col-70{
     width: 70%;
@@ -187,7 +194,9 @@ input{
     width: 50%;
     padding: 30px 20px;
 }
-
+.griglia> img{
+    width: 100%;
+}
 .bg-green{
     background-color: #A2D39B;
 }
@@ -232,8 +241,8 @@ input{
     border-bottom: 1px solid black;
 }
 hr{
-    margin-top: 100px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .lingua{
     padding-left: 10px;
