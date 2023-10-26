@@ -78,6 +78,9 @@ li{
 .j-cent{
     justify-content: center;
 }
+.j-bet{
+    justify-content: space-between;
+}
 button{
     background-color: #0061FF;
     padding: 5px 10px;
@@ -160,6 +163,7 @@ input{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    fill: white;
 }
 .contain> img{
     width: 50%;
@@ -202,4 +206,10 @@ input{
 }
 .alingh-items{
     align-items: center;
+}
+.border-t{
+    border-top: 1px solid black;
+}
+.border-b{
+    border-bottom: 1px solid black;
 }
