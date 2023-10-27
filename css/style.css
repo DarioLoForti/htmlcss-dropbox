@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* semantic tag */
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -17,247 +19,43 @@ footer{
     background-color: black;
     color: white;
 }
+
+/* container */
+
 .container-full{
     width: 100%;
 }
 .container{
     max-width: 1200px;
     margin: 0 auto;
-
 }
 .container-min{
     max-width: 1000px;
-    margin: 0 auto;
-}
-.row{
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.gap{
-    gap: 10px;
-}
-.contain{
-    width: 100%;
-    padding: 20px;
+    margin:  auto;
 }
 .header-contain{
     width: 100%;
     padding: 20px; 
     position: relative;
 }
-.height{
-    min-height: 900px;
-    background-color: red;
-}
-.h{
-    height: 50px;
-    background-color: red;
-}
-.h-200{
-    height: 200px;
-    background-color: red;
-}
-.h-500{
-    height: 500px;
-    background-color: red;
-}
-
-.d-flex{
-    display: flex;
-}
-.f-w{
+.row{
+    width: 100%;
     flex-wrap: wrap;
-}
-ul{
-    list-style: none;
-    align-items: center;
-}
-
-.d-flex> li{
-    margin: 0px 20px;
-}
-.list-v> li{
-    margin: 20px 0;
-}
-
-.no-margin{
-    margin: 50px 0px;
-}
-.margin{
-    margin: 80px 0px;
-}
-.padding{
-    padding: 100px 0;
-}
-.padding-tb{
-    padding: 30px 0px;
-}
-.padding-top{
-    padding-top: 150px;
-}
-.bg-pink> .contain{
-    padding: 20px;
-}
-.j-end{
-    justify-content: end;
-}
-.j-cent{
-    justify-content: center;
-}
-.j-bet{
     justify-content: space-between;
 }
+.contain{
+    width: 100%;
+    padding: 30px;
+}
+.contain-sub{
+    width: 100%;
+    padding: 0px 10px;
+}
 
-button{
-    background-color: #0061FF;
-    padding: 5px 10px;
-    color: white;
-}
-.button{
-    background-color: white;
-    color: black;
-    padding: 10px 40px;
-    height: 80px;
-    border: none;
-    font-size: 25px;
-}
+/* background */
+
 .bg-gray{
     background-color: #B4D0E7 ;
-    
-}
-
-.border{
-    border: 1px gray solid;
-}
-.col-100{
-    width: 100%;
-}
-.col-50{
-    width: calc(100% / 2);
-}
-.col-40{
-    width: 40%;
-}
-.col-60{
-    width: 60%;
-}
-.col-30{
-    width: 30%;
-}
-.col-33{
-    width: calc(100% / 3)
-}
-
-.col-70{
-    width: 70%;
-}
-.col-20{
-    width: calc(100% / 5);
-}
-
-h1{
-    font-size: 75px;
-}
-img{
-    width: 100%
-}
-h2{
-    font-size: 40px;
-}
-h3{
-    font-size: 35px;
-}
-.input{
-    width: 500px;
-    padding: 40px 0px;
-}
-input{
-    margin: 0 20px;
-}
-.t-center{
-    text-align: center;
-}
-.header-contain> p{
-    line-height: 20px;
-    text-align: left;
-    padding-bottom: 30px;
-}
-.contain > h3, h4, p{
-    line-height: 40px;
-}
-#l-h-p{
-    line-height: 20px;
-}
-#button{
-    background-color: white;
-    color: black;
-}
-.contain-bis{
-   width: 70%;
-   padding: 20px;
-}
-.contain-bis> p{
-    line-height: 20px;
-    padding-top: 30px;
-}
-
-.contain-tris{
-    width: 30%;
-    position: relative;
-}
-.position{
-    position: absolute;
-    top: 30px;
-    left: 70px;
-    padding: 10px 30px;
-}
-.square{
-    border: 1px solid black;
-    width: 100%;
-    height: calc(100vw / 3 / 2);
-    position: relative;
-    
-}
-.square>img{
-    width: 50%;
-    filter: invert(100%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.images{
-    width: 100%;  
-}
-.images-h{
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-.images-h> img{
-    position: absolute;
-}
-.images> img{
-    width: 100%;
-}
-.images-bis> img{
-    width: 100%;
-}
-.contain> img{
-    width: 50%;
-    padding: 30px 20px;
-}
-.grigia> h3{
-    padding: 20px;
-    
-}
-.grigia> p{
-    padding: 20px;
-    
-}
-.griglia> img{
-    width: 100%;
 }
 .bg-green{
     background-color: #A2D39B;
@@ -286,15 +84,20 @@ input{
 .bg-yellow{
     background-color: #FFD830;
 }
-.bg-gray> h2{
-    text-align: center;
-    padding: 100px;
+
+/* utility */
+
+h1{
+    font-size: 75px;
 }
-.col-70> .contain{
-    justify-content: space-around;
+img{
+    width: 100%
 }
-.alingh-items{
-    align-items: center;
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 35px;
 }
 .border-t{
     border-top: 1px solid black;
@@ -302,23 +105,309 @@ input{
 .border-b{
     border-bottom: 1px solid black;
 }
-hr{
-    margin-top: 20px;
-    margin-bottom: 40px;
-    width: 50px;
+.alingh-items{
+    align-items: center;
 }
-#hr{
-    margin-top: 100px;
-    margin-bottom: 40px;
-    width: 120px;
+.t-center{
+    text-align: center;
 }
-.lingua{
-    padding-left: 10px;
-    margin-bottom: 60px;
+.border{
+    border: 1px gray solid;
+}
+.j-end{
+    justify-content: end;
+}
+.j-cent{
+    justify-content: center;
+}
+.j-bet{
+    justify-content: space-between;
+}
+.no-margin{
+    margin: 50px 0px;
+}
+.margin{
+    margin: 80px 0px;
+}
+.padding{
+    padding: 100px 0;
+}
+.padding-tb{
+    padding: 30px 0px;
+}
+.padding-top{
+    padding-top: 150px;
+}
+.height{
+    min-height: 900px;
+    background-color: red;
+}
+.h{
+    height: 50px;
+    background-color: red;
+}
+.h-200{
+    height: 200px;
+    background-color: red;
+}
+.h-500{
+    height: 500px;
+    background-color: red;
+}
+
+.d-flex{
+    display: flex;
+}
+.f-w{
+    flex-wrap: wrap;
+}
+.gap{
+    gap: 10px;
+}
+
+/* Column */
+
+.col-100{
+    width: 100%;
+}
+.col-50{
+    width: calc(100% / 2);
+}
+.col-40{
+    width: 40%;
+}
+.col-60{
+    width: 60%;
+}
+.col-30{
+    width: 30%;
+}
+.col-33{
+    width: calc(100% / 3)
+}
+
+.col-70{
+    width: 70%;
+}
+.col-20{
+    width: calc(100% / 5);
+}
+
+/* Advanced selector */
+
+main> .container-min{
+    padding: 50px 0;
+}
+.d-flex> li{
+    margin: 0px 20px;
+}
+.list-v> li{
+    margin: 20px 0;
+}
+
+.list-v.prova> li::before{
+    content:"✓";
+    padding-right: 8px;
+    color: blue;
+}
+.bg-pink> .contain{
+    padding: 20px;
+}
+.header-contain> p{
+    line-height: 20px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.contain > h3, h4{
+    line-height: 30px;
+}
+.contain-bis> p{
+    line-height: 20px;
+    padding-top: 30px;
 }
 .padding-tb> .alingh-items{
     padding-right: 30px;
 }
 .line-height> li{
     line-height: 40px;
+}
+.images-h> img{
+    position: absolute;
+}
+.images> img{
+    width: 100%;
+}
+.images-bis> img{
+    width: 100%;
+}
+.contain> img{
+    width: 50%;
+    padding: 30px 20px;
+}
+.griglia> h3{
+    padding: 20px;
+    
+}
+.griglia> p{
+    padding: 10px 0;
+    font-size: 15px;
+    
+}
+.griglia> img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.bg-gray> h2{
+    text-align: center;
+    padding: 100px;
+}
+.col-70> .contain{
+    justify-content: space-around;
+}
+.col-33> .griglia{
+    margin-bottom: 10px;
+}
+.contain.p> h4{
+    font-size: 25px;
+    font-weight: bold;
+}
+.header-contain> i{
+    padding-top: 50px;
+}
+.contain.border> h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+.contain.border> button{
+    margin: 20px auto;
+    width: 250px;
+    padding: 15px;
+}
+.contain-bis> h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+.input> span{
+    padding-right: 20px;
+}
+
+.row.d-flex.padding-tb> .col-100{
+    display: flex;
+    padding: 10px 0px;
+    border-top: 1px solid black;
+}
+
+.contain.f> h4{
+    padding: 20px 0px;
+}
+.col-100> .contain{
+    padding: 50px 0;
+}
+.contain> .h2{
+    padding-top: 100px;
+}
+/* tag */
+
+ul{
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+button{
+    background-color: #0061FF;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+input{
+    margin: 0 10px;
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 50px;
+}
+
+
+/* #id */
+
+#l-h-p{
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#button{
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    border: 1px solid black;
+    font-size: 15px;
+}
+#hr{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 120px;
+}
+
+/* .class */
+
+.griglia{
+    margin: 20px;
+}
+.button{
+    background-color: white;
+    color: black;
+    padding: 0px 50px;
+    border: none;
+    font-size: 15px;
+}
+.input{
+    width: 450px;
+    padding: 40px 0px;
+    margin-left: -20px;
+}
+.contain-bis{
+   width: 70%;
+   padding: 20px;
+}
+.contain-tris{
+    width: 30%;
+    position: relative;
+}
+.position{
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    padding: 10px 30px;
+}
+.square{
+    border: 1px solid black;
+    width: 100%;
+    height: calc(100vw / 3 / 2);
+    position: relative; 
+}
+.square>img{
+    width: 50%;
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.images{
+    width: 100%;  
+}
+.images-bis{
+    margin-right: 20px;
+}
+.images-h{
+    width: 100%; 
+    height: 100%;
+    position: relative;
+}
+.lingua{
+    padding-left: 10px;
+    margin-bottom: 60px;
 }
