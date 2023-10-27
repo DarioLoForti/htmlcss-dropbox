@@ -396,7 +396,18 @@ hr{
 }
 
 /* .class */
-
+.after{
+    display: none;
+}
+.before{
+    display: block;
+}
+.contain.d-flex.alingh-items.j-bet:hover .before{
+    display: none;
+}
+.contain.d-flex.alingh-items.j-bet:hover .after{
+    display: block;
+}
 .griglia{
     margin: 20px;
 }
