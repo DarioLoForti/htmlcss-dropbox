@@ -59,7 +59,7 @@ footer{
 /* background */
 
 .bg-gray{
-    background-color: #B4D0E7 ;
+    background-color: #B4D0E7;
 }
 .bg-green{
     background-color: #A2D39B;
@@ -141,22 +141,6 @@ h3{
 }
 .padding-top{
     padding-top: 150px;
-}
-.height{
-    min-height: 900px;
-    background-color: red;
-}
-.h{
-    height: 50px;
-    background-color: red;
-}
-.h-200{
-    height: 200px;
-    background-color: red;
-}
-.h-500{
-    height: 500px;
-    background-color: red;
 }
 
 .d-flex{
@@ -351,6 +335,27 @@ main> .container-min{
     padding-right: 10px;
     padding-top: 5px;
 }
+.link> img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contain.d-flex.j-bet> a{
+    padding: 0px 50px;
+}
+.contain.d-flex.j-bet:hover button{
+    background-color: #0093CE;
+    color:red
+}
+.link>img{
+    filter: invert(1);
+}
+.link:hover img{
+    filter:invert(0)
+}
+
 /* tag */
 
 ul{
@@ -396,6 +401,12 @@ hr{
 }
 
 /* .class */
+.link{
+    border: 1px solid black;
+    width: 100%;
+    height: calc(100vw / 3 / 2);
+    position: relative; 
+}
 .after{
     display: none;
 }
@@ -413,8 +424,7 @@ hr{
 }
 .button{
     background-color: white;
-    color: black;
-    padding: 0px 50px;
+    color: black;   
     border: none;
     font-size: 15px;
 }
