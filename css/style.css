@@ -41,6 +41,11 @@ footer{
     width: 100%;
     padding: 20px;
 }
+.header-contain{
+    width: 100%;
+    padding: 20px; 
+    position: relative;
+}
 .height{
     min-height: 900px;
     background-color: red;
@@ -86,10 +91,10 @@ ul{
     padding: 100px 0;
 }
 .padding-tb{
-    padding: 50px 0px;
+    padding: 30px 0px;
 }
 .padding-top{
-    padding-top: 100px;
+    padding-top: 150px;
 }
 .bg-pink> .contain{
     padding: 20px;
@@ -112,7 +117,7 @@ button{
 .button{
     background-color: white;
     color: black;
-    padding: 20px 50px;
+    padding: 10px 40px;
     height: 80px;
     border: none;
     font-size: 25px;
@@ -173,11 +178,20 @@ input{
 .t-center{
     text-align: center;
 }
-.l-height{
+.header-contain> p{
     line-height: 20px;
+    text-align: left;
+    padding-bottom: 30px;
 }
 .contain > h3, h4, p{
     line-height: 40px;
+}
+#l-h-p{
+    line-height: 20px;
+}
+#button{
+    background-color: white;
+    color: black;
 }
 .contain-bis{
    width: 70%;
@@ -214,13 +228,18 @@ input{
     transform: translate(-50%, -50%);
 }
 .images{
+    width: 100%;  
+}
+.images-h{
     width: 100%;
+    height: 100%;
     position: relative;
+}
+.images-h> img{
+    position: absolute;
 }
 .images> img{
     width: 100%;
-    position: absolute;
-    top: 30px;
 }
 .images-bis> img{
     width: 100%;
@@ -231,9 +250,11 @@ input{
 }
 .grigia> h3{
     padding: 20px;
+    
 }
 .grigia> p{
     padding: 20px;
+    
 }
 .griglia> img{
     width: 100%;
@@ -284,6 +305,12 @@ input{
 hr{
     margin-top: 20px;
     margin-bottom: 40px;
+    width: 50px;
+}
+#hr{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 120px;
 }
 .lingua{
     padding-left: 10px;
@@ -291,4 +318,7 @@ hr{
 }
 .padding-tb> .alingh-items{
     padding-right: 30px;
+}
+.line-height> li{
+    line-height: 40px;
 }
