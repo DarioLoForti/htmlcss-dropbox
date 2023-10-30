@@ -72,6 +72,7 @@ footer{
 
 .bg-gray{
     background-color: #B4D0E7;
+    padding-bottom: 30px;
 }
 .bg-green{
     background-color: #A2D39B;
@@ -197,6 +198,18 @@ h3{
 }
 
 /* Advanced selector */
+.header-contain> a{
+    color: black
+}
+.contain.dflex> .d-flex{
+    align-items: center;
+}
+    
+
+.vai> a{
+    text-decoration: none;
+    color: white;
+}
 li> a{
     text-decoration: none;
     color: black;
